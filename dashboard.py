@@ -40,7 +40,7 @@ df_outlet = pd.DataFrame({
 # COLUMN 1: SIDEBAR
 # -----------------------------------------------------------------------------
 with st.sidebar:
-    st.header("SSC 2026 Dashboard")
+    st.header("SSC 2026 Dashboard : Master")
     st.write("Select the dataset to view:")
     
     # Radio button to switch views
@@ -50,7 +50,7 @@ with st.sidebar:
     )
     
     st.markdown("---")
-    st.write("Switch Training Department")
+    st.caption("© 2026 SSC 2026 | Insight Team")
 
 # -----------------------------------------------------------------------------
 # COLUMN 2: MAIN AREA
